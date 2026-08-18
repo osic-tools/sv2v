@@ -6,6 +6,11 @@
 * Added support for `bufif0`, `bufif1`, `notif0`, `notif1`, `cmos`, `rcmos`,
   `nmos`, `pmos`, `rnmos`, and `rpmos`.
 
+### Bug Fixes
+
+* Fixed conversion of struct field accesses when the struct's field widths
+  depend on a member of a struct-typed parameter
+
 ### Other Enhancements
 
 * `always_comb` blocks with sensitivities inherited from called functions or
